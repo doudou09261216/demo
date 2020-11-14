@@ -8,6 +8,7 @@ const app = new Koa()
 
 
 app.use(ctx => {
+    console.log("...")
     ctx.body = '微信小程序访问了我！';
 });
 
